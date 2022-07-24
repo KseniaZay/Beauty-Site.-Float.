@@ -1,3 +1,9 @@
+*,
+*:before,
+*::after{
+    box-sizing: border-box;
+}
+
 :root{
     --base-color: #333;
     --black: #000;
@@ -133,51 +139,140 @@ img {
 .stock {
     background: url(../images/pink_img.svg);
     width: 1920px;
-    height: 604px;
-}
-
-.main-box {
-    padding: 170px 0 0 60px;
-}
-
-.main-box h1 {
-    padding: 0 0 0 0;
-   font-weight: 700;
-   font-size: 48px;
-   line-height: 56px;
-   color: var(--white);
-}
-
-.main-box p {
+    min-height: 604px;
+    padding: 170px 0 100px ;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: var(--white);
 }
 
-.btn2 {
+.stock h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--white);
+}
+
+.pinck {
     margin: 30px 0 0 0;
-    font-size: 14px;
+    padding: 10px 45px;
+    color: var(--white);
+    background: var(--pink);
+    border: 2px solid var(--white);
+}
+
+.pinck:hover {
+    background: var(--pink);
+}
+
+.special {
+    padding: 70px 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.cards {
+    padding: 0;
+    margin: 0 -15px;
+    list-style: none;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.cards > li {
+    margin: 0; 
+    padding: 0 15px;
+    width: 25%;
+    float: left;
+} 
+
+.card {
+    background: white;
+}    
+
+h3 > a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card_visual {
+    padding: 15px 0 5px 0;
+    text-align: center;
+    display: block;
+}
+
+.card_content {
+    padding: 0 0 10px 0;
     font-weight: 400;
-    line-height: 16px;
-    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+}
+.price {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.small {
     padding: 10px 45px;
     color: var(--white);
     background: var(--pink);
     text-decoration: none;
     border: 2px solid var(--white);
-    border-radius: 50px;
-    transition: var(--speed);
 }
 
-.btn2:hover {
+.small:hover {
     background: var(--pink);
 }
-.special {
-    padding: 60px;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
+
+
+
+
+
+
+
+.email-map {
+    padding: 100px 0 0 0;
+  
+
 }
 
+.email_map h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+.email_map p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.email { 
+    width: 540px;
+    padding: 40px 20px ;
+    float: left;
+    background: var(--pink);
+}
+.email_content {
+    float: left;
+}
+.email_visual {
+    float: right;
+}
+    
+.map {
+    width: 540px;
+    padding: 40px 20px;
+    float: right;
+    background: var(--pink);
+}
+.map_content {
+    float: left;
 
+}
+.map_visual {
+    float: right;
+
+}
