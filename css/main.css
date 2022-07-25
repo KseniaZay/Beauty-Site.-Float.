@@ -3,7 +3,6 @@
 *::after{
     box-sizing: border-box;
 }
-
 :root{
     --base-color: #333;
     --black: #000;
@@ -17,7 +16,6 @@
     --button-border-color: var(--pink);
     --header-bar-color: var(--gray);
 }
-
 body {
     font-size: 14px;
     line-height: 20px;
@@ -26,89 +24,73 @@ body {
     background: var(--gray);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 #wrapper {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
-
 .container {
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
-
 img {
     max-width: 100%;
     vertical-align: top;
     height: auto;
 }
-
 .header-panel {
    padding: 16px 0;
    background: var(--gray);
    font-size: 14px;
    line-height: 16px;
 }
-
 .menu {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
-
 .menu a {
     color: var(--base-color);
     text-decoration: none;
     transition: color var(--speed);
 }
-
 .menu a:hover {
     color: var(--hover-color);
 }
-
 .menu > li {
     display: inline-block;
     padding: 0 15px;
 }
-
 .header-main {
     background: var(--white);
     padding: 20px 0;
 }
-
 .header-main .container {
     overflow: hidden;
 }
-
 .logo {
     float: left;
     padding: 0 0 0 30px;
 }
-
 .header-main_box {
     float: right;
     padding: 23px 0;
 }
-
 .tel {
     font-size: 16px;
     text-decoration: none;
     color: var(--black);
     margin: 0 40px 0 0;
 }
-
 .tel:hover {
     color: var(--hover-color);
 }
-
 .header-main_box .btn {
     vertical-align: middle;
 }
-
 .btn {
     font-size: 14px;
     font-weight: 400;
@@ -120,14 +102,12 @@ img {
     background: var(--button-background);
     text-decoration: none;
     border: 2px solid var(--button-border-color);
-    border-radius: 50px;
+    border-radius: 40px;
     transition: var(--speed);
 }
-
 .btn:hover {
     background: var(--button-border-color);
 }
-
 .header-bar {
     font-size: 16px;
     line-height: 18px;
@@ -135,7 +115,6 @@ img {
     background: var(--white);
     border-top: 1px solid var(--header-bar-color);
 }
-
 .stock {
     background: url(../images/pink_img.svg);
     width: 1920px;
@@ -146,14 +125,12 @@ img {
     line-height: 20px;
     color: var(--white);
 }
-
 .stock h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
     color: var(--white);
 }
-
 .pinck {
     margin: 30px 0 0 0;
     padding: 10px 45px;
@@ -161,18 +138,15 @@ img {
     background: var(--pink);
     border: 2px solid var(--white);
 }
-
 .pinck:hover {
     background: var(--pink);
 }
-
 .special {
-    padding: 70px 0 20px;
+    padding: 70px 0 20px 20px;
     font-size: 16px;
     font-weight: 700;
     line-height: 28px;
 }
-
 .cards {
     padding: 0;
     margin: 0 -15px;
@@ -180,30 +154,27 @@ img {
     vertical-align: top;
     overflow: hidden;
 }
-
 .cards > li {
     margin: 0; 
     padding: 0 15px;
     width: 25%;
     float: left;
 } 
-
 .card {
     background: white;
 }    
-
 h3 > a {
     text-decoration: none;
     margin: 0;
     padding: 0;
+    color: var(--black);
 }
-
 .card_visual {
     padding: 15px 0 5px 0;
     text-align: center;
     display: block;
+    text-decoration: none;
 }
-
 .card_content {
     padding: 0 0 10px 0;
     font-weight: 400;
@@ -214,31 +185,21 @@ h3 > a {
     font-weight: 500;
     font-size: 21px;
 }
-
 .small {
     padding: 10px 45px;
     color: var(--white);
     background: var(--pink);
-    text-decoration: none;
     border: 2px solid var(--white);
+    border-radius: 30px;
 }
-
 .small:hover {
     background: var(--pink);
 }
-
-
-
-
-
-
-
 .email-map {
-    padding: 100px 0 0 0;
-  
-
+   overflow: hidden;
+   padding: 100px 20px;
+   color: var(--white);
 }
-
 .email_map h4 {
     font-weight: 700;
     font-size: 18px;
@@ -251,28 +212,64 @@ h3 > a {
 }
 .email { 
     width: 540px;
-    padding: 40px 20px ;
+    padding: 35px 20px;
     float: left;
     background: var(--pink);
 }
 .email_content {
     float: left;
+    padding: 0 0 0 20px;
 }
 .email_visual {
     float: right;
-}
-    
+    padding: 20px 20px;
+}   
 .map {
     width: 540px;
-    padding: 40px 20px;
+    padding: 35px 20px;
     float: right;
     background: var(--pink);
 }
 .map_content {
     float: left;
-
+    padding: 0 0 0 20px;
+}
+.big {
+    padding: 7px 25px;
+    color: var(--white);
+    background: var(--pink);
+    border: 2px solid var(--white);
+    border-radius: 30px;
+}
+.big:hover {
+    background: var(--pink);
 }
 .map_visual {
     float: right;
-
+    padding: 20px 20px;
+}
+.box-link {
+    padding: 0;
+    margin: 0;
+    background: white;
+    list-style: none;
+    text-align: center;
+}
+.box-link > li {
+    padding: 35px 60px;
+    margin: -3;
+    border: 1px solid #EFEFEF;
+    display: inline-block;
+}
+.box-link a {
+    text-decoration: none;
+}
+.box-link > a:hover {
+    background: var(--white);
+}
+.whoch {
+    padding: 50px 0 30px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
 }
