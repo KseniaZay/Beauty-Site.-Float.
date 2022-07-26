@@ -163,11 +163,16 @@ img {
 .card {
     background: white;
 }    
+h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
 h3 > a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    color: var(--black);
+    color: var(--base-color);
 }
 .card_visual {
     padding: 15px 0 5px 0;
@@ -211,13 +216,24 @@ h3 > a {
 }
 .email { 
     width: 540px;
-    padding: 35px 20px;
+    padding: 25px 20px;
     float: left;
     background: var(--pink);
 }
 .email_content {
     float: left;
     padding: 0 0 0 20px;
+}
+form p {
+    color: rgba(196, 196, 196, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.text {
+    padding: 10px 35px;
+    border-radius: 30px;
+    border-color: white;
 }
 .email_visual {
     float: right;
@@ -255,13 +271,9 @@ h3 > a {
     text-align: center;
 }
 .box-link > li {
-    padding: 35px 60px;
-    margin: -3;
+    padding: 35px 61px;
     border: 1px solid #EFEFEF;
-    display: inline-block;
-}
-.box-link a {
-    text-decoration: none;
+    display: inline-block;  
 }
 .box-link > a:hover {
     background: var(--white);
@@ -272,3 +284,37 @@ h3 > a {
     font-weight: 700;
     line-height: 28px;
 }
+.s-cards {
+    padding-bottom: 80px;
+}
+.footer-panel {
+    background: var(--white);
+    padding: 45px 0;
+}
+.popular h4 {
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--black);
+}
+.popular {
+    display: inline-block;
+    padding-right: 175px;
+}
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.list a {
+    text-decoration: none;
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+}
+.footer-logo {
+    border: 1px solid #EFEFEF;
+}
+
