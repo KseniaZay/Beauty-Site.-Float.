@@ -318,3 +318,33 @@ form p {
     border: 1px solid #EFEFEF;
 }
 
+
+.social-net img{
+    border: 2px solid #F13C6E;
+    border-radius: 50px;
+    width: 45px;
+}
+.footer-inf {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: #828282;
+}
+.foot {
+    float: left;
+    padding: 0 180px 0 0;
+}
+.foot2 {
+    float: right;
+}
+.foot2 a {
+    text-decoration: none;
+    color: #828282;
+}
+.foot2 a:hover {
+    background: #828282;
+}
