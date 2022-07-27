@@ -73,7 +73,7 @@ img {
 }
 .logo {
     float: left;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 5px;
 }
 .header-main_box {
     float: right;
@@ -318,11 +318,17 @@ form p {
     border: 1px solid #EFEFEF;
 }
 
-
-.social-net img{
+.social-net {
+    padding: 25px 0;
+}
+.social-net img {
+    width: 45px;
+    height: 45px;
     border: 2px solid #F13C6E;
     border-radius: 50px;
-    width: 45px;
+    padding: 10px 10px;
+    margin-right: 15px;
+    
 }
 .footer-inf {
     font-weight: 400;
@@ -340,6 +346,7 @@ form p {
 }
 .foot2 {
     float: right;
+    padding: 0 0 0 130px;
 }
 .foot2 a {
     text-decoration: none;
