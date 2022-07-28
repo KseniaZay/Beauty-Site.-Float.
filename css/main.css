@@ -117,9 +117,8 @@ img {
 }
 .stock {
     background: url(../images/pink_img.svg);
-    width: 1920px;
-    min-height: 604px;
-    padding: 170px 0 100px ;
+    background-position: 50% 50%;
+    padding: 170px 0 100px 0 ;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -269,12 +268,20 @@ form p {
     background: white;
     list-style: none;
     text-align: center;
+    overflow: hidden;
 }
 .box-link > li {
     padding: 35px 61px;
-    border: 1px solid #EFEFEF;
-    display: inline-block;  
+    margin-bottom:-1px;
+    border-right: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+    float: left; 
+    width: 25%;
 }
+.box-link > li:nth-child(4n) {
+    border-right: 0;
+}
+
 .box-link > a:hover {
     background: var(--white);
 }
@@ -292,6 +299,7 @@ form p {
     padding: 45px 0;
 }
 .popular h4 {
+    border-bottom: 1px solid #EFEFEF;
     padding-bottom: 25px;
     font-weight: 500;
     font-size: 16px;
@@ -300,7 +308,7 @@ form p {
 }
 .popular {
     display: inline-block;
-    padding-right: 175px;
+    padding: 0 155px 0 20px;
 }
 .list {
     padding: 0;
@@ -317,7 +325,6 @@ form p {
 .footer-logo {
     border: 1px solid #EFEFEF;
 }
-
 .social-net {
     padding: 25px 0;
 }
